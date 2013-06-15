@@ -1,0 +1,7 @@
+Heap
+ par new generation   total 2359296K, used 536332K [0x00007fbe967c0000, 0x00007fbf567c0000, 0x00007fbf567c0000)
+  eden space 1572864K,  34% used [0x00007fbe967c0000, 0x00007fbeb73832c0, 0x00007fbef67c0000)
+  from space 786432K,   0% used [0x00007fbef67c0000, 0x00007fbef67c0000, 0x00007fbf267c0000)
+  to   space 786432K,   0% used [0x00007fbf267c0000, 0x00007fbf267c0000, 0x00007fbf567c0000)
+ concurrent mark-sweep generation total 49283072K, used 0K [0x00007fbf567c0000, 0x00007fcb167c0000, 0x00007fcb167c0000)
+ concurrent-mark-sweep perm gen total 24128K, used 23976K [0x00007fcb167c0000, 0x00007fcb17f50000, 0x00007fcb1b9c0000)
