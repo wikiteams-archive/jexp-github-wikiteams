@@ -1,0 +1,6 @@
+SELECT MAX(repository_forks) as forks, repository_url
+ FROM [githubarchive:github.timeline] 
+ WHERE (created_at CONTAINS "2013-06-15") 
+ GROUP BY repository_url
+ ORDER BY forks 
+ DESC LIMIT 6000
